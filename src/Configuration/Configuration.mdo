@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a267b036-5d45-4498-9237-f5b323825224">
+  <name>Configuration</name>
+  <synonym>
+    <key>en</key>
+    <value>Configuration</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="c91be8b5-9252-4aab-87cf-9db9c065a361"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="444d03ca-4587-4c44-b990-e0a81d45dd48"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="036ba2dc-0a6f-428d-9384-11187f685e13"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="dcd4631b-6c8b-4684-97d5-cab958fcaaca"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="8e05208d-60dc-475e-8f0a-336da8cb21b8"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="381d13b6-e8cc-4da4-ae16-c0978763bc5b"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="52afc189-d0c0-44db-b7c2-0aa77d1be057"/>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.English</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="48c76ff4-74cb-40af-b0f7-ee3a30b6cf72">
+    <name>English</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+  <catalogs>Catalog.Goods</catalogs>
+  <documents>Document.Sale</documents>
+</mdclass:Configuration>

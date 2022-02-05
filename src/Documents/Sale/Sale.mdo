@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="201a64f9-135b-4f5a-8b3b-e4e1a15586a4">
+  <producedTypes>
+    <objectType typeId="eacb4ef0-5c8b-48ce-b3e5-7cc123a8a954" valueTypeId="6d6b09ec-9fed-4453-9296-417bd646e478"/>
+    <refType typeId="5a2e9fac-4dee-4d16-bd95-b96d85ce9bef" valueTypeId="e9000aab-5b19-4065-a63a-7909a724b57e"/>
+    <selectionType typeId="cc29cbd0-9131-4943-ad23-0dabfe1796a5" valueTypeId="1720357f-f006-406d-aa33-9755fb78dfa6"/>
+    <listType typeId="db60707f-4d86-488b-9397-de04bf360110" valueTypeId="950910a0-9a73-4ae7-b1ab-bc57eccac33d"/>
+    <managerType typeId="9c6dc47e-2989-4f79-a443-f8670bc1ed14" valueTypeId="612a0297-cd49-41b8-b9b9-16d4bb29b086"/>
+  </producedTypes>
+  <name>Sale</name>
+  <synonym>
+    <key>en</key>
+    <value>Sale</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Sale.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="1f2e6541-45b5-414b-a237-7f423ba515c3">
+    <producedTypes>
+      <objectType typeId="5dcc3e54-8aa5-4b13-8da4-7f27d261d71e" valueTypeId="5a50776d-d1d8-4573-a235-baf163167f19"/>
+      <rowType typeId="8fcedf9b-b9ab-41b7-914f-23db73f484ef" valueTypeId="43bfe5ed-0e5c-4614-951f-84c526f79b83"/>
+    </producedTypes>
+    <name>Goods</name>
+    <synonym>
+      <key>en</key>
+      <value>Goods</value>
+    </synonym>
+    <attributes uuid="fe5acfb8-b6d9-4559-ad06-300981c78f5e">
+      <name>Good</name>
+      <synonym>
+        <key>en</key>
+        <value>Good</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Goods</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c0613ad4-ce5e-45ae-8e40-24ae7d19ec17">
+      <name>Quantity</name>
+      <synonym>
+        <key>en</key>
+        <value>Quantity</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e6736ef2-8818-4c06-a71f-6b6ae5b61c6b">
+      <name>Price</name>
+      <synonym>
+        <key>en</key>
+        <value>Price</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1ce8664e-33f7-46f0-a28c-32b765a4504b">
+      <name>Amount</name>
+      <synonym>
+        <key>en</key>
+        <value>Amount</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
