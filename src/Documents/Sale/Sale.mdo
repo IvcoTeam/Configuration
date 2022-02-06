@@ -26,6 +26,24 @@
   <defaultObjectForm>Document.Sale.Form.DocumentForm</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="a0082a9a-6d34-4860-b078-91e062a92b31">
+    <name>Buyer</name>
+    <synonym>
+      <key>en</key>
+      <value>Buyer</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="ddae9915-7929-4f34-a20b-4c3e751247fe">
     <name>DocumentForm</name>
     <synonym>
